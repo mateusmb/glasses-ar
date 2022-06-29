@@ -92,7 +92,7 @@ const VTOModelContainer = (props) => {
     <object3D ref={objRef}>
       <object3D>
         <primitive object={model} />
-        <primitive object={occluderMesh} scale={[1.25, 1.0, 1.0]} />
+        <primitive object={occluderMesh} scale={[1.2, 1.0, 1.0]} />
       </object3D>
     </object3D>
     )
